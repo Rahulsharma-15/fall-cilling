@@ -6,7 +6,7 @@ import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 
 // 🔹 Hero Slider Images
-import rooftop from '../assets/home/rooftop.jpg';
+import rooftop from "../assets/home/rooftop.jpg";
 import rooftop2 from "../assets/home/rooftop2.jpg";
 import rooftop3 from "../assets/home/rooftop3.jpg";
 import rooftop4 from "../assets/home/rooftop4.jpg";
@@ -28,10 +28,18 @@ import wall8 from "../assets/home/wall8.avif";
 
 export default function Home() {
   const heroSlides = [
-    { id: 1, name: "Transform Your Home with Modern Fall Ceilings", img: rooftop },
+    {
+      id: 1,
+      name: "Transform Your Home with Modern Fall Ceilings",
+      img: rooftop,
+    },
     { id: 2, name: "Elegant Lighting Meets Perfect Design", img: rooftop2 },
     { id: 3, name: "Customized Designs for Every Space", img: rooftop3 },
-    { id: 4, name: "Redefine Your Interiors with Fall Ceilings Experts", img: rooftop4 },
+    {
+      id: 4,
+      name: "Redefine Your Interiors with Fall Ceilings Experts",
+      img: rooftop4,
+    },
   ];
 
   const topDestinations = [
@@ -42,18 +50,18 @@ export default function Home() {
   ];
 
   const galleryImages = [
-    { id: 1, name: "design1", img: rooftop },
-    { id: 2, name: "design2", img: rooftop2 },
-    { id: 3, name: "design3", img: rooftop3 },
-    { id: 4, name: "design4", img: rooftop4 },
-    { id: 5, name: "design5", img: wall1 },
-    { id: 6, name: "design6", img: wall9 },
-    { id: 7, name: "design7", img: wall2 },
-    { id: 8, name: "design8", img: wall3 },
-    { id: 9, name: "design9", img: wall5 },
-    { id: 10, name: "design10", img: wall6 },
-    { id: 11, name: "design11", img: wall7 },
-    { id: 12, name: "design12", img: wall8 },
+    { id: 1, name: "Design1", img: rooftop },
+    { id: 2, name: "Design2", img: rooftop2 },
+    { id: 3, name: "Design3", img: rooftop3 },
+    { id: 4, name: "Design4", img: rooftop4 },
+    { id: 5, name: "Design5", img: wall1 },
+    { id: 6, name: "Design6", img: wall9 },
+    { id: 7, name: "Design7", img: wall2 },
+    { id: 8, name: "Design8", img: wall3 },
+    { id: 9, name: "Design9", img: wall5 },
+    { id: 10, name: "Design10", img: wall6 },
+    { id: 11, name: "Design11", img: wall7 },
+    { id: 12, name: "Design12", img: wall8 },
   ];
 
   return (
@@ -79,17 +87,18 @@ export default function Home() {
                 <div className="absolute inset-0 bg-black/40"></div>
                 <div className="text-white relative z-10 px-4">
                   <h1 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">
-                   {d.name}
+                    {d.name}
                   </h1>
-                 <p className="max-w-2xl mx-auto text-lg md:text-xl mb-6 opacity-90 text-center">
-  Stylish designs, premium materials, and expert craftsmanship — we turn every ceiling into a masterpiece.
-</p>
+                  <p className="max-w-2xl mx-auto text-lg md:text-xl mb-6 opacity-90 text-center">
+                    Stylish designs, premium materials, and expert craftsmanship
+                    — we turn every ceiling into a masterpiece.
+                  </p>
 
                   <a
                     href="/contact"
                     className="bg-yellow-500 hover:bg-yellow-600 text-white px-8 py-3 rounded-full font-semibold shadow-md transition-all duration-300 hover:scale-105"
                   >
-                  Discuss With Us
+                    Discuss With Us
                   </a>
                 </div>
               </div>
@@ -103,10 +112,10 @@ export default function Home() {
         <div className="text-center mb-12 px-4">
           <h2 className="text-3xl md:text-4xl font-bold mb-3 text-gray-800 relative inline-block">
             Top Designs
-             <span className="block h-[3px] w-24 bg-yellow-500 mx-auto mt-2 animate-slide"></span>
+            <span className="block h-[3px] w-24 bg-yellow-500 mx-auto mt-2 animate-slide"></span>
           </h2>
           <p className="text-gray-500 mt-4 text-sm md:text-base">
-          <b> Upgrade Your Interiors with Modern Fall Ceilings</b>
+            <b> Upgrade Your Interiors with Modern Fall Ceilings</b>
           </p>
         </div>
 
@@ -126,9 +135,7 @@ export default function Home() {
                 <h3 className="text-white text-2xl font-semibold drop-shadow-lg">
                   {d.name}
                 </h3>
-                <p className="text-yellow-400 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                 
-                </p>
+                <p className="text-yellow-400 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500"></p>
               </div>
             </div>
           ))}
@@ -139,11 +146,15 @@ export default function Home() {
       <section className="py-16 bg-gray-100 w-full">
         <div className="text-center mb-12 px-4">
           <h2 className="text-3xl md:text-4xl font-bold mb-3 text-gray-800 relative inline-block">
-          Transforming Spaces with Modern Ceilings Art
-             <span className="block h-[3px] w-20 bg-yellow-500 mx-auto mt-2 animate-slide"></span>
+            Transforming Spaces with Modern Ceilings Art
+            <span className="block h-[3px] w-20 bg-yellow-500 mx-auto mt-2 animate-slide"></span>
           </h2>
           <p className="text-gray-500 mt-4 text-sm md:text-base">
-         <b>  Add a touch of elegance and sophistication with our cutting-edge Ceilings designs</b>
+            <b>
+              {" "}
+              Add a touch of elegance and sophistication with our cutting-edge
+              Ceilings designs
+            </b>
           </p>
         </div>
 

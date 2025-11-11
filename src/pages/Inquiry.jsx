@@ -13,7 +13,7 @@ export default function Inquiry() {
     setLoading(true);
 
     const formData = new FormData(e.target);
-    formData.append("access_key", "YOUR_WEB3FORMS_ACCESS_KEY"); // replace with your Web3Forms API key
+    formData.append("access_key", "b2c85e06-aa13-42c5-a9d5-205b3bb7a8cc"); // replace with your Web3Forms API key
 
     const res = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -129,7 +129,7 @@ export default function Inquiry() {
             Your trusted partner for unforgettable working experiences.
           </p>
           <p className="text-l mt-2 text-gray-100">
-           <b> Contact us at</b> : shreeshyamFallCeilings1234@gmail.com | +91 9829272530, +91 9928815702
+           <b> Contact us at</b> : ankits01792@gmail.com | +91 6377067563
           </p>
         </div>
       </section>
