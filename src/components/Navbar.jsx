@@ -41,7 +41,7 @@ export default function Navbar() {
             isScrolled ? "text-yellow-600" : "text-yellow-400"
           }`}
         >
-          Shree Shyam  Ceilings
+          Shree Shyam Fall Ceilings
         </Link>
 
         {/* Desktop Menu */}
